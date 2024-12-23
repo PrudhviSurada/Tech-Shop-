@@ -1,0 +1,41 @@
+a:hover {
+    background-color: red;
+}
+.box1  {
+    text-align: center;
+    justify-content: center;
+} 
+.image {
+    width: 100%;
+    height: 500px;
+    margin: 0px;
+    display: flex;
+    justify-items: space-evenly;
+}
+.img {
+    height: 90%;
+    width: 200px;
+    margin: 5px;
+}
+.img > h5 {
+    height: 15%;
+    text-align: center;
+}
+.img > img {
+    height: 70%;
+    width:95% ;
+}
+.img1 {
+    height: 100%;
+    align-self: center;
+}
+.img2 {
+    height: 80%;
+    align-self: center;
+
+}
+.img3 {
+    height: 60%;
+    align-self: center;
+
+}
