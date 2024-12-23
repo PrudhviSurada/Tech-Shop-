@@ -1,0 +1,48 @@
+.main {
+    padding-top: 100px;
+}
+.stock {
+    margin:20px 170px;
+
+}
+.btn {
+    margin-right: 10px;
+    padding: 5px 19px; 
+}
+.cart {
+    padding: 5px 50px;
+}
+.emi {
+    margin-right: 10px;
+padding: 5px 19px;
+}
+a:hover {
+    background-color: red;
+}
+.specifications {
+    padding:100px 0px;
+}
+.spec {
+    margin-left: 400px;
+    text-decoration: none;
+    border: none;
+    background-color: red;
+    padding: 5px;
+}
+.overview {
+    margin-left: 100px;
+    text-decoration: none;
+}
+.review {
+    margin-left: 100px;
+    text-decoration: none;
+}
+a {
+    color:white;
+}
+.details {
+    padding-top: 50px;
+}
+.features {
+    padding-left: 250px;
+}
