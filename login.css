@@ -1,0 +1,67 @@
+.form {
+    margin-top: 100px;
+    margin-left: 420px;
+    margin-bottom: 20px;
+    width: 350px;
+    position: relative;
+}
+#cross1 {
+/* padding-left: 660px; */
+/* object-fit: ; */
+position: absolute;
+right: 0;
+}
+#form {
+    padding-left: 45px;
+}
+.sign {
+    width: 257px;
+}
+.social {
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+#fb{
+    background-color: rgb(70, 70, 199);
+    color: white;
+    border: none;
+    margin-left: 42px;
+    padding: 2px 15px;
+
+}
+#ggl {
+    background-color: red;
+    color: white;
+    border: none;
+    /* margin-left: 22px; */
+    padding: 2px 15px;
+}
+#twt {
+    background-color: rgb(26, 188, 253);
+    color: white;
+    border: none;
+    /* margin-left: 18px; */
+    padding: 2px 15px;
+
+}
+a {
+    text-decoration: none;
+}
+#ico1:hover {
+    background-color: red;
+}
+ .ico:hover {
+    background-color: red;
+} 
+.fb:hover {
+    transition: scale(3);
+}
+#fb:hover {
+    transform: scale(1.2);
+}
+#ggl:hover {
+    transform: scale(1.2);
+}
+#twt:hover {
+    transform: scale(1.2);
+}
