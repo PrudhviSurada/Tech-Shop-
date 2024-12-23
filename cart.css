@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 98%;
+    margin: auto;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 55% 40%;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.sec1 {
+    height: 450px;
+    background-color: rgb(27, 26, 26);
+    overflow-y: scroll;
+}
+
+.sec2 {
+    padding: 5px;
+}
+
+.cart1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    width: 100%;
+    height: 220px;
+}
+
+.cimg {
+    width: 20%;
+    height: 60%;
+}
+.cimg > img {
+    height: 100%;
+    width: 100%;
+}
+
+.cdetails {
+    width: 45%;
+    font-size: 20px;
+}
+#p1 {
+    padding-bottom: 18px;
+}
+#p2 {
+    margin-bottom: 18px;
+
+}
+#btn {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    font-size: 15px;
+    border: none;
+    background-color: rgb(52, 50, 50);
+}
+#btn > span:nth-child(2) {
+    background-color: rgb(25, 24, 24);
+    padding: 4px 10px;
+    color: red;
+}
+#btn span {
+    padding: 6px;
+    color: white;
+}
+
+.txt1 {
+    padding-left: 300px;
+}
+.txt2 {
+    padding-left: 350px
+}
+.txt3 {
+    padding-left: 380px;
+}
+.txt4 {
+    padding-left: 300px;
+}
+.check {
+    background-color: red;
+    padding:5px 210px;
+    color: white;
+    border: none;
+}
+a:hover{
+    background-color: red;
+}
